@@ -57,7 +57,7 @@ class Point:
 		self.x, self.y = self.x/n, self.y/n
 	
 	def as_tuple(self):
-		return (self.x, self.y)
+		return (int(self.x), int(self.y) )
 	
 	def rotate(self, angle):
 		cosa, sina = cos(angle), sin(angle)
